@@ -1,0 +1,23 @@
+fields:
+    job_title:
+        label: 'Job Position'
+        span: full
+        type: text
+    description:
+        label: 'Job Description'
+        size: ''
+        span: full
+        type: richeditor
+    company_name:
+        label: 'Company Name'
+        span: auto
+        type: text
+    created_at:
+        label: 'Date picker'
+        span: auto
+        mode: date
+        type: datepicker
+    company_email:
+        label: 'Company Email'
+        span: full
+        type: text

@@ -1,0 +1,41 @@
+description = "Navigation bar"
+
+[session]
+security = "all"
+==
+<section id="navbar" class="m-b-3" >
+	<nav class="navbar navbar-dark bg-inverse navbar-fixed-top" >
+		<div class="container">
+			<a class="navbar-brand" href="{{ 'home'|page }}">Mini Job Mgt</a>
+			<ul class="nav navbar-nav pull-xs-right">
+				<li class="nav-item{{ this.page.baseFileName == 'home' ? ' active' }}">
+					<a class="nav-link" href="{{ 'home'|page }}">Home</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'about' ? ' active' }}">
+					<a class="nav-link" href="{{ 'about'|page }}">About</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'contact' ? ' active' }}">
+					<a class="nav-link" href="{{ 'contact'|page }}">Contact Us</a>
+				</li>
+				
+				<li class="nav-item{{ this.page.baseFileName == 'login' ? ' active' }}" style="margin-right:5px">
+					<a class="nav-link" href="{{ 'login'|page }}">
+					{% if not user %}
+					    login
+					{% else %}
+					    My Profile
+					{% endif %}
+					</a>
+				</li>
+				
+		            {% if user %}  
+		            {% component 'session' %}
+				        <button class="btn btn-primary " type="submit"  data-request="onLogout" data-request-data="redirect: '/'">Sign out</button>
+				    {% endif %}
+				
+				
+				
+			</ul>
+		</div>
+	</nav>
+</section>

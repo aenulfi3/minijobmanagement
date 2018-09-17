@@ -1,0 +1,20 @@
+columns:
+    job_title:
+        label: 'Job Position'
+        type: text
+        searchable: true
+        sortable: true
+    company_name:
+        label: 'Company Name'
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'Published Date'
+        type: date
+        sortable: true
+    company_email:
+        label: 'Company Email'
+        type: text
+        searchable: true
+        sortable: true

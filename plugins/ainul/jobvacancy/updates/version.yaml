@@ -1,0 +1,26 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table ainul_jobvacancy_'
+    - builder_table_create_ainul_jobvacancy_.php
+1.0.3:
+    - 'Updated table ainul_jobvacancy_'
+    - builder_table_update_ainul_jobvacancy_.php
+1.0.4:
+    - 'Updated table ainul_jobvacancy_'
+    - builder_table_update_ainul_jobvacancy__2.php
+1.0.5:
+    - 'Drop table ainul_jobvacancy_'
+    - builder_table_delete_ainul_jobvacancy_.php
+1.0.6:
+    - 'Created table ainul_jobvacancy_'
+    - builder_table_create_ainul_jobvacancy__2.php
+1.0.7:
+    - 'Created table ainul_jobvacancy_'
+    - builder_table_create_ainul_jobvacancy__3.php
+1.0.8:
+    - 'Updated table ainul_jobvacancy_'
+    - builder_table_update_ainul_jobvacancy__3.php
+1.0.9:
+    - 'Updated table ainul_jobvacancy_'
+    - builder_table_update_ainul_jobvacancy__4.php

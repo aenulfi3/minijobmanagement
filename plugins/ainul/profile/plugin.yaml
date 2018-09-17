@@ -1,0 +1,6 @@
+plugin:
+    name: 'ainul.profile::lang.plugin.name'
+    description: 'ainul.profile::lang.plugin.description'
+    author: ainul
+    icon: oc-icon-adjust
+    homepage: ''

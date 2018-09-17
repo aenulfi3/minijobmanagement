@@ -1,0 +1,17 @@
+description = "The Jumbotron"
+==
+<section id="jumbotron" class="m-t-3">
+	<div class="jumbotron">
+		<div class="container text-xs-center">
+			{% placeholder jumbotron default %}
+			<h1 class="display-3">Welcome to Mini Job MGT</h1>
+			<p class="lead">Simply look for a vacant job that might interest you and click apply</p>
+			<hr class="m-y-2">
+			<p>Or go to your Profile Setting.</p>
+			<p class="lead">
+				<a class="btn btn-primary btn-lg" href="{{ 'login'|page }}" role="button">Settings</a>
+			</p>
+			{% endplaceholder %}
+		</div>
+	</div>
+</section>

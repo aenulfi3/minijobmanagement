@@ -1,0 +1,25 @@
+<div class="record-box {{ cssClass }}">
+
+    {% if __SELF__.recordDetail.preview_image %}
+        <img alt="{{ __SELF__.recordDetail.name }}" src="{{ __SELF__.recordDetail.preview_image.getPath() }}" />
+    {% endif %}
+
+    <h3 class="record-box-title">
+        {{ __SELF__.recordDetail.name }}
+    </h3>
+
+    {% if __SELF__.recordDetail.blog_posts %}
+
+        <ul>
+
+            {% for blogPost in __SELF__.recordDetail.blog_posts %}
+
+                <li>{{ blogPost.title }}</li>
+
+            {% endfor %}
+        
+        </ul>
+
+    {% endif %}
+
+</div>

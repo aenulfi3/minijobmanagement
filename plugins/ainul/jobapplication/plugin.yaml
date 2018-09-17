@@ -1,0 +1,6 @@
+plugin:
+    name: 'ainul.jobapplication::lang.plugin.name'
+    description: 'ainul.jobapplication::lang.plugin.description'
+    author: ainul
+    icon: oc-icon-adjust
+    homepage: ''

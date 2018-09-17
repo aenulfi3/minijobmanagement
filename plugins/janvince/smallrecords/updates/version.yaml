@@ -1,0 +1,102 @@
+1.0.0:
+    - "Initial version"
+    - sr_tables.php
+1.1.0:
+    - "Import/Export for Records, Categories and Tags."
+1.1.1:
+    - "Permissions for each Records list."
+1.1.2:
+    - "Added testimonials column."
+    - sr-update-01.php
+1.1.3:
+    - Experimental support for duplicate slugs (unique must be combination [list-slug]). Duplicates for now checked only by DB.
+    - sr-update-02.php
+1.1.4:
+    - Added components for RecordDetail and CategoryDetail.
+1.1.5:
+    - Added navigation to next/previous record in a record edit form.
+1.1.6:
+    - Fixed typo in EN locale
+1.1.7:
+    - Improved Category component.
+1.1.8:
+    - Added {{ attribute.value }} and {{ record.getAttributeBySlug('slug') }} functions.
+1.1.9:
+    - Added {{ record.getAttributeValueBySlug('slug') }} function.
+1.1.10:
+    - Fixed recordDetail coponent code (thanks to https://github.com/onemedicare)
+1.2.0:
+    - Added limit function to Records component
+1.3.0:
+    - Added Tags to records list and Records component
+1.3.1:
+    - Fixed default Tag slug for Records component
+1.4.0:
+    - Added Categories component property to get only root categories. Fixed some translations.
+1.4.1:
+    - Added some more sorting columns (and check for allowed column types)
+1.5.0:
+    - Added option for Preview image selected from Media manager.
+    - sr-update-03.php
+1.5.1:
+    - Fixed incorrectly defined testimonials repeater fields
+1.6.0:
+    - Added optional custom sorting of records
+    - sr-update-04.php
+1.6.1:
+    - Added button to add new item after create or update.
+    - Fixed Cancel button URL
+    - Added autofocus for first form field
+1.6.2:
+    - Changed order of Create and NEW button. Fixed prev/next arrows in records.
+1.6.3:
+    - Fixed records filter (Active)
+1.7.0:
+    - Added option to add images from Media Manager (with repeater) along with fileupload
+    - sr-update-05.php
+1.7.1:
+    - Added option to specify detail page slug (for records component)
+1.7.2:
+    - Fixed param type
+1.7.3:
+    - Updated RecordDetail component partial
+1.7.4:
+    - Temporary page reload solution to correctly refresh list after item(s) delete
+1.8.0:
+    - Added new repeater tab Content blocks (specifically for website page builder blocks)
+    - sr-update-06.php
+1.8.1:
+    - Changed count() to mb_strlen() function in custom list type definition
+1.9.0:
+    - Added option to connect Rainlab.Blog posts and Records
+    - sr-update-07.php
+1.9.1:
+    - Fixed settings dropdown definition
+1.9.2:
+    - Fixed Lists order in settings
+1.9.3:
+    - Chanded input custom list column type for switch to prevent interaction with toolbar JS
+1.9.4:
+    - Fixed Records component
+1.9.5:
+    - Added records columns for description and content. 
+    - Added html_text_preview column type.
+1.9.6:
+    - Added limit to categories component
+1.9.7:
+    - Removed Prev & Next buttons in Records update form (as it never worked reliable)
+1.9.8:
+    - Fixed custom reordering of records to show only selected Area records
+1.10.0:
+    - Added reverse relation 'blog_posts' to record object to allow related blog posts listing
+    - Fixed Records component params
+1.10.1:
+    - Added sorting to record's related blog posts
+1.11.0:
+    - Added multi-categories checkbox to Categories component. Added categories column to records list.
+1.11.1:
+    - Fixed allowLimit default false state in components
+1.12.0:
+    - Added useMultiCategories property to Records component to allow filtering by categories selected in Categories tab
+1.12.1:
+    - Fixed optional relationship with Blog post

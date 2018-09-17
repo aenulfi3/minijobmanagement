@@ -1,0 +1,11 @@
+plugin:
+    name: 'ainul.jobvacancy::lang.plugin.name'
+    description: 'ainul.jobvacancy::lang.plugin.description'
+    author: ainul
+    icon: oc-icon-briefcase
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Jobs
+        url: ainul/jobvacancy/jobs
+        icon: icon-briefcase

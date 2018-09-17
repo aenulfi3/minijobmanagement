@@ -1,0 +1,10 @@
+name: Jobs
+modelClass: Ainul\JobVacancy\Models\Job
+form: $/ainul/jobvacancy/models/job/fields.yaml
+defaultRedirect: ainul/jobvacancy/jobs
+create:
+    redirect: 'ainul/jobvacancy/jobs/update/:id'
+    redirectClose: ainul/jobvacancy/jobs
+update:
+    redirect: ainul/jobvacancy/jobs
+    redirectClose: ainul/jobvacancy/jobs

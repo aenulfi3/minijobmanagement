@@ -1,0 +1,12 @@
+title: Jobs
+modelClass: Ainul\JobVacancy\Models\Job
+list: $/ainul/jobvacancy/models/job/columns.yaml
+recordUrl: 'ainul/jobvacancy/jobs/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

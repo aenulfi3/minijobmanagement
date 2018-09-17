@@ -1,0 +1,4 @@
+title: Jobs
+modelClass: Ainul\JobVacancy\Models\Job
+toolbar:
+    buttons: reorder_toolbar
